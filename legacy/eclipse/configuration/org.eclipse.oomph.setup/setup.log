@@ -1,0 +1,721 @@
+[2024-03-20 18:24:12] Executing bootstrap tasks
+[2024-03-20 18:24:12] OpenJDK Runtime Environment 17.0.8.1+1
+[2024-03-20 18:24:12] Product org.eclipse.products.epp.package.jee.2023-09
+[2024-03-20 18:24:12] Bundle org.eclipse.oomph.setup 1.27.0.v20230714-1137, build=172, branch=619f8be9a7f929a284db8759f923f2293a5612e2
+[2024-03-20 18:24:12] Bundle org.eclipse.oomph.setup.core 1.28.0.v20230618-0610, build=172, branch=619f8be9a7f929a284db8759f923f2293a5612e2
+[2024-03-20 18:24:12] Bundle org.eclipse.oomph.setup.p2 1.20.0.v20230617-1322, build=172, branch=619f8be9a7f929a284db8759f923f2293a5612e2
+[2024-03-20 18:24:12] Performing P2 Director (Eclipse IDE for Enterprise Java and Web Developers (2023-09))
+[2024-03-20 18:24:12] Offline = false
+[2024-03-20 18:24:12] Mirrors = true
+[2024-03-20 18:24:12] Resolving 111 requirements from 3 repositories to C:\Users\Leon.Schmidt\Desktop\HKA\dev\VertSys\git_legacy\eclipse
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:epp.package.jee [4.29.0,5.0.0) (filter=(|(&(osgi.arch=aarch64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=aarch64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))(&(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))(&(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))))
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.platform.feature.group [4.29.0,5.0.0)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.rcp.feature.group [4.29.0,5.0.0)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.buildship.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.common.doc.user.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.doc.user.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.oda.designer.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.connectivity.oda.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.doc.user.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.apache.derby.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.hsqldb.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.ibm.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.ingres.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.jdbc.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.jdt.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.msft.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.mysql.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.oda.designer.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.oda.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.oracle.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.postgresql.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sap.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sdk.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sqlite.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.enablement.sybase.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.intro.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.modelbase.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sdk.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.data.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.ddl.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.parsers.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.results.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.datatools.sqltools.doc.user.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.eclemma.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.egit.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.epp.mpc.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.bcoview.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jdt.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jgit.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.common.eclipselink.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.common.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jaxb.eclipselink.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jaxb.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jpa.eclipselink.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jpt.jpa.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jsf.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.common.fproj.enablement.jdt.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.enterprise_ui.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.server_adapters.ext.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.server_adapters.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.server_ui.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.web_ui.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.webpageeditor.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.axis2tools.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.cxf.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.jaxws.dom.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.jst.ws.jaxws.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.lemminx.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.logback.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.pde.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.jaxrs.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.jpa.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.m2e.wtp.jsf.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.egit.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.github.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jdt.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.jenkins.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.pde.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.reviews.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.wikitext_feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.pde.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tips.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.tm.terminal.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.embedder.node.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wildwebdeveloper.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wst.common.fproj.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wst.server_adapters.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.wst.xsl.feature.feature.group
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.builds.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.bugzilla_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.context_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.activity.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.notifications.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.repositories.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.repositories.http.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.discovery.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.git.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.hudson.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.commons.identity.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.ide_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.java_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.monitor.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.pde_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.team_feature.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.mylyn.versions.feature.group (min=0) (max=0) (greedy)
+[2024-03-20 18:24:12] Requirement org.eclipse.equinox.p2.iu:org.eclipse.oomph.setup.feature.group
+[2024-03-20 18:24:12] Repository https://download.eclipse.org/technology/epp/packages/2023-09/202309071200
+[2024-03-20 18:24:12] Repository https://download.eclipse.org/releases/2023-09/202309131000
+[2024-03-20 18:24:12] Repository https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-03-20 18:24:14] Calculating requirements and dependencies.
+[2024-03-20 18:24:15] Computing prerequisite plan
+[2024-03-20 18:24:18] Collecting 13 artifacts from https://download.eclipse.org/oomph/updates/milestone/latest
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.p2
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.setup
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.setup.core
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.setup.ui
+[2024-03-20 18:24:19] Downloading slf4j.api
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.resources.edit
+[2024-03-20 18:24:19] Downloading org.eclipse.nebula.widgets.tablecombo
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.p2.core
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.ui
+[2024-03-20 18:24:19] Downloading org.eclipse.oomph.setup.core
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.ui_1.21.0.v20240120-1356.jar from https://mirror.dogado.de/eclipse/oomph/drops/release/1.32.0/plugins/ (404.61kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.setup_1.31.0.v20240306-1109.jar from https://ftp.snt.utwente.nl/pub/software/eclipse/oomph/drops/release/1.32.0/features/ (21.01kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.p2_1.29.0.v20240120-1356.jar from https://mirrors.dotsrc.org/eclipse//oomph/drops/release/1.32.0/features/ (20.96kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.setup.core_1.30.0.v20240211-0940.jar from https://mirror.ibcp.fr/pub/eclipse/oomph/drops/release/1.32.0/features/ (21.1kB)
+[2024-03-20 18:24:19] Fetching slf4j.api_2.0.12.jar from https://eclipse.mirror.garr.it/oomph/drops/release/1.32.0/plugins/ (66.52kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.setup.ui_1.29.0.v20240306-1109.jar from https://ftp.fau.de/eclipse/oomph/drops/release/1.32.0/plugins/ (793.96kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.setup.core_1.30.0.v20240211-0940.jar from https://mirror.ibcp.fr/pub/eclipse/oomph/drops/release/1.32.0/features/ (21.1kB)
+[2024-03-20 18:24:19] Fetching slf4j.api_2.0.12.jar from https://eclipse.mirror.garr.it/oomph/drops/release/1.32.0/plugins/ (66.52kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.resources.edit_1.14.0.v20240130-1324.jar from https://ftp.halifax.rwth-aachen.de/eclipse/oomph/drops/release/1.32.0/plugins/ (33.12kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.p2.core_1.28.0.v20240120-1356.jar from https://mirror.dkm.cz/eclipse/oomph/drops/release/1.32.0/plugins/ (419.48kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.setup.ui_1.29.0.v20240306-1109.jar from https://ftp.fau.de/eclipse/oomph/drops/release/1.32.0/plugins/ (793.96kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.p2.core_1.28.0.v20240120-1356.jar from https://mirror.dkm.cz/eclipse/oomph/drops/release/1.32.0/plugins/ (419.48kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.oomph.resources.edit_1.14.0.v20240130-1324.jar from https://ftp.halifax.rwth-aachen.de/eclipse/oomph/drops/release/1.32.0/plugins/ (33.12kB)
+[2024-03-20 18:24:19] Fetching org.eclipse.nebula.widgets.tablecombo_1.2.0.202402110801.jar from https://ftp.acc.umu.se/mirror/eclipse.org/oomph/drops/release/1.32.0/plugins/ (42.97kB)
+[2024-03-20 18:24:20] Downloading org.eclipse.oomph.util
+[2024-03-20 18:24:20] Fetching org.eclipse.oomph.setup.core_1.30.0.v20240211-0940.jar from https://mirror.tspu.ru/eclipse/oomph/drops/release/1.32.0/plugins/ (341.88kB)
+[2024-03-20 18:24:20] Downloading org.eclipse.oomph.resources
+[2024-03-20 18:24:20] Downloading org.eclipse.oomph.setup.sync
+[2024-03-20 18:24:20] Fetching org.eclipse.oomph.resources_1.20.0.v20240130-1324.jar from https://mirror.dogado.de/eclipse/oomph/drops/release/1.32.0/plugins/ (126.43kB)
+[2024-03-20 18:24:20] Fetching org.eclipse.oomph.setup.sync_1.16.0.v20240211-0940.jar from https://mirror.dogado.de/eclipse/oomph/drops/release/1.32.0/plugins/ (105.85kB)
+[2024-03-20 18:24:21] Fetching org.eclipse.oomph.util_1.21.0.v20231205-1338.jar from https://download.eclipse.org/oomph/drops/release/1.32.0/plugins/ (235.23kB)
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://ftp.fau.de/eclipse/oomph/drops/release/1.32.0/ at 1,511kb/s
+[2024-03-20 18:24:21] Mirrored 3 artifacts from https://mirror.dogado.de/eclipse/oomph/drops/release/1.32.0/ at 1,350kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://mirror.dkm.cz/eclipse/oomph/drops/release/1.32.0/ at 869kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://mirror.tspu.ru/eclipse/oomph/drops/release/1.32.0/ at 412kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://download.eclipse.org/oomph/drops/release/1.32.0/ at 248kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://eclipse.mirror.garr.it/oomph/drops/release/1.32.0/ at 192kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://ftp.halifax.rwth-aachen.de/eclipse/oomph/drops/release/1.32.0/ at 101kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://ftp.acc.umu.se/mirror/eclipse.org/oomph/drops/release/1.32.0/ at 101kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://ftp.snt.utwente.nl/pub/software/eclipse/oomph/drops/release/1.32.0/ at 82kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://mirrors.dotsrc.org/eclipse//oomph/drops/release/1.32.0/ at 81kb/s
+[2024-03-20 18:24:21] Mirrored 1 artifacts from https://mirror.ibcp.fr/pub/eclipse/oomph/drops/release/1.32.0/ at 71kb/s
+[2024-03-20 18:24:21] Collected 13 artifacts for https://download.eclipse.org/oomph/updates/milestone/latest in 2.969s
+[2024-03-20 18:24:21] Collecting 3 artifacts from https://download.eclipse.org/technology/epp/packages/2023-09/202309071200
+[2024-03-20 18:24:21] Downloading org.eclipse.epp.package.jee.feature
+[2024-03-20 18:24:21] Downloading org.eclipse.epp.package.jee
+[2024-03-20 18:24:21] Downloading epp.package.jee.executable.win32.win32.x86_64
+[2024-03-20 18:24:22] Fetching org.eclipse.epp.package.jee.feature_4.29.0.20230907-1200.jar from https://download.eclipse.org/technology/epp/packages/2023-09/202309071200/features/ (22.32kB)
+[2024-03-20 18:24:22] Fetching epp.package.jee.executable.win32.win32.x86_64_4.29.0.20230907-1200 from https://download.eclipse.org/technology/epp/packages/2023-09/202309071200/binary/ (270.24kB)
+[2024-03-20 18:24:22] Fetching org.eclipse.epp.package.jee_4.29.0.20230907-1200.jar from https://download.eclipse.org/technology/epp/packages/2023-09/202309071200/plugins/ (332.88kB)
+[2024-03-20 18:24:23] Mirrored 3 artifacts from https://download.eclipse.org/technology/epp/packages/2023-09/202309071200/ at 244kb/s
+[2024-03-20 18:24:23] Collected 3 artifacts for https://download.eclipse.org/technology/epp/packages/2023-09/202309071200 in 1.632s
+[2024-03-20 18:24:23] Collecting 341 artifacts from https://download.eclipse.org/releases/2023-09/202309131000
+[2024-03-20 18:24:27] Downloading org.eclipse.platform_root
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.finfo
+[2024-03-20 18:24:27] Downloading org.eclipse.wst.common.infopop
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.hsqldb.dbdefinition
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.sqlite.dbdefinition
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.sdk
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.connectivity.dbdefinition.genericJDBC
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.ingres.dbdefinition
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.sybase.asa.dbdefinition
+[2024-03-20 18:24:27] Downloading org.eclipse.jst.ws.creation.ejb.ui
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.sqltools.doc.user.contexts
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.3.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/plugins/ (15.55kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.sqlite.dbdefinition_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (15.54kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.jst.ws.creation.ejb.ui_1.0.400.v202308010145.jar from https://mirror.ibcp.fr/pub/eclipse/releases/2023-09/202309131000/plugins/ (12.75kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.finfo_1.8.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (16.31kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.jst.ws.creation.ejb.ui_1.0.400.v202308010145.jar from https://mirror.ibcp.fr/pub/eclipse/releases/2023-09/202309131000/plugins/ (12.75kB)
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.sybase.ase.dbdefinition
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.ingres.dbdefinition_1.3.0.202305310959.jar from https://ftp.snt.utwente.nl/pub/software/eclipse/releases/2023-09/202309131000/plugins/ (17.25kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.sybase.asa.dbdefinition_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (17.71kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.sqltools.doc.user.contexts_1.8.0.202305310959.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2023-09/202309131000/plugins/ (17.05kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.ingres.dbdefinition_1.3.0.202305310959.jar from https://ftp.snt.utwente.nl/pub/software/eclipse/releases/2023-09/202309131000/plugins/ (17.25kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.finfo_1.8.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (16.31kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.sqltools.doc.user.contexts_1.8.0.202305310959.jar from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2023-09/202309131000/plugins/ (17.05kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.sybase.asa.dbdefinition_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (17.71kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.sdk_1.10.0.202305310959.jar from https://eclipse.mirror.garr.it/releases/2023-09/202309131000/plugins/ (16.29kB)
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.sqltools.db.derby.ui
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.postgresql.dbdefinition
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.oda.cshelp
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.postgresql.ui
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.3.0.202305310959.jar from https://mirror.tspu.ru/eclipse/releases/2023-09/202309131000/plugins/ (17.44kB)
+[2024-03-20 18:24:27] Downloading org.eclipse.draw2d
+[2024-03-20 18:24:27] Fetching org.eclipse.wst.common.infopop_1.0.301.v202307170218.jar from https://mirrors.dotsrc.org/eclipse//releases/2023-09/202309131000/plugins/ (12.57kB)
+[2024-03-20 18:24:27] Downloading org.eclipse.gef
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.sqltools.db.generic.ui
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.oracle
+[2024-03-20 18:24:27] Downloading org.eclipse.rcp_root
+[2024-03-20 18:24:27] Downloading org.eclipse.datatools.enablement.sap.maxdb.dbdefinition
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.postgresql.ui_1.3.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/plugins/ (19.26kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.oda.cshelp_1.4.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (19.03kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.enablement.postgresql.ui_1.3.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/plugins/ (19.26kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.oda.cshelp_1.4.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (19.03kB)
+[2024-03-20 18:24:27] Fetching org.eclipse.datatools.sqltools.db.generic.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (19.96kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.wildwebdeveloper.feature
+[2024-03-20 18:24:28] Fetching org.eclipse.draw2d_3.17.0.202308311129.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (19.74kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.oracle_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (20.13kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.sybase.ase.dbdefinition_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (18.19kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.postgresql.dbdefinition_1.3.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/plugins/ (18.49kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.wildwebdeveloper.embedder.node.feature
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.sap.maxdb.dbdefinition_1.3.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/plugins/ (20.33kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.intro
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.enablement.sdk.feature
+[2024-03-20 18:24:28] Fetching org.eclipse.gef_3.17.0.202308311129.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (19.9kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.sqldevtools.ddl.feature
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.enablement.mysql.ui
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.connectivity.oda.designer.feature
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.enablement.jdt.feature
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.connectivity.oda.feature
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.connectivity.oda.designer.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.75kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.jdt.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.75kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.wildwebdeveloper.feature_1.2.1.202308101949.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.61kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.sqltools.db.derby.ui_1.3.0.202305310959.jar from https://download.eclipse.org/releases/2023-09/202309131000/plugins/ (18.38kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.intro_1.15.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (20.65kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.connectivity.oda.designer.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.75kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.jdt.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.75kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.sqltools.db.derby.ui_1.3.0.202305310959.jar from https://download.eclipse.org/releases/2023-09/202309131000/plugins/ (18.38kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.intro_1.15.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (20.65kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.wildwebdeveloper.feature_1.2.1.202308101949.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.61kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.connectivity.oda.feature_1.15.0.202305311622.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.75kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.enablement.oda.feature
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.sqldevtools.ddl.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.69kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.sdk.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.66kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.sqldevtools.ddl.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.69kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.sdk.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.66kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.common.doc.user
+[2024-03-20 18:24:28] Fetching org.eclipse.datatools.enablement.mysql.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (20.7kB)
+[2024-03-20 18:24:28] Fetching org.eclipse.wildwebdeveloper.embedder.node.feature_1.0.6.202308092312.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.62kB)
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.enablement.jdbc.feature
+[2024-03-20 18:24:28] Downloading org.eclipse.datatools.sqldevtools.parsers.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.oda.designer.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.oracle.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.sdk.feature
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.enablement.oracle.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.81kB)
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.common.doc.user_1.15.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (20.79kB)
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.enablement.oda.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.78kB)
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.sdk.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.81kB)
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.enablement.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.8kB)
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.sqldevtools.parsers.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.8kB)
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature_1.15.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (20.79kB)
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.hsqldb.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.mysql.feature
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.enablement.oda.designer.feature_1.15.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (20.81kB)
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.postgresql.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.connectivity.doc.user
+[2024-03-20 18:24:29] Fetching org.eclipse.datatools.enablement.jdbc.feature_1.15.0.202305310959.jar from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/features/ (20.79kB)
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.sap.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.enablement.msft.feature
+[2024-03-20 18:24:29] Downloading org.eclipse.datatools.connectivity.oda.designer.core.feature
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.modelbase.feature
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.doc.user
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.sqldevtools.data.feature
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.connectivity.doc.user_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.83kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.hsqldb.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.81kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.connectivity.doc.user_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.83kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.hsqldb.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.81kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.sap.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.83kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.connectivity.oda.designer.core.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.84kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.msft.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.83kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.doc.user_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.84kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.msft.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.83kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.doc.user_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.84kB)
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.enablement.apache.derby.feature
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.connectivity.oda.designer.core.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.84kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.modelbase.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.84kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.mysql.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.81kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.enablement.postgresql.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.82kB)
+[2024-03-20 18:24:30] Fetching org.eclipse.datatools.sqldevtools.data.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.84kB)
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.enablement.sqlite.feature
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.enablement.ingres.feature
+[2024-03-20 18:24:30] Downloading org.eclipse.emf.edit
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.connectivity.feature
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.sqldevtools.results.feature
+[2024-03-20 18:24:30] Downloading org.eclipse.datatools.sqltools.doc.user
+[2024-03-20 18:24:30] Downloading org.eclipse.emf.codegen.ecore.ui
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.sqldevtools.ddlgen.feature
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.sqldevtools.sqlbuilder.feature
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqldevtools.sqlbuilder.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.92kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.connectivity.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.88kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqldevtools.ddlgen.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.9kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.connectivity.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.88kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqldevtools.sqlbuilder.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.92kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.enablement.ingres.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.87kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.enablement.apache.derby.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.85kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.emf.codegen.ecore.ui_2.35.0.v20230622-1149.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.9kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.enablement.apache.derby.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.85kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.enablement.sqlite.feature_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.87kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqltools.doc.user_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.88kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqldevtools.results.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.88kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqltools.doc.user_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.88kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.emf.codegen.ecore.ui_2.35.0.v20230622-1149.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.9kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.emf.edit_2.20.0.v20230828-0616.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (20.87kB)
+[2024-03-20 18:24:31] Fetching org.eclipse.datatools.sqldevtools.results.feature_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.88kB)
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.enablement.sybase.feature
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.enablement.ibm.feature
+[2024-03-20 18:24:31] Downloading org.eclipse.emf.codegen.ecore
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.sqldevtools.feature
+[2024-03-20 18:24:31] Downloading org.eclipse.jst.enterprise_ui.feature
+[2024-03-20 18:24:31] Downloading org.eclipse.emf
+[2024-03-20 18:24:31] Downloading org.eclipse.m2e.pde.feature
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.enablement.sap.maxdb.ui
+[2024-03-20 18:24:31] Downloading org.eclipse.datatools.enablement.ibm.informix
+[2024-03-20 18:24:32] Downloading org.eclipse.mylyn.pde.feature
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.enablement.ibm.informix_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (21.13kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.mylyn.pde.feature_4.0.0.v20230804-1109.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (21.25kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.jst.enterprise_ui.feature_3.31.0.v202308110616.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (21.02kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.m2e.pde.feature_2.2.200.20230820-0922.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (21.03kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.enablement.ibm.informix_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (21.13kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.jst.enterprise_ui.feature_3.31.0.v202308110616.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (21.02kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.enablement.sap.maxdb.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (21.13kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.emf.codegen.ecore_2.35.0.v20230801-1141.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.95kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.sqldevtools.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (21.02kB)
+[2024-03-20 18:24:32] Downloading org.eclipse.wst.xml.xpath2.processor.feature
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.enablement.sap.maxdb.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (21.13kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.emf_2.35.0.v20230829-0934.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (21.03kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.enablement.ibm.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.94kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.emf.codegen.ecore_2.35.0.v20230801-1141.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (20.95kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.enablement.sybase.feature_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (20.92kB)
+[2024-03-20 18:24:32] Downloading org.eclipse.wst.xsl.feature
+[2024-03-20 18:24:32] Downloading org.eclipse.datatools.connectivity.db.generic
+[2024-03-20 18:24:32] Downloading org.eclipse.datatools.help
+[2024-03-20 18:24:32] Downloading org.eclipse.datatools.connectivity.doc.user.contexts
+[2024-03-20 18:24:32] Downloading org.eclipse.datatools.enablement.ibm.db2.iseries
+[2024-03-20 18:24:32] Downloading org.eclipse.jst.ws.jaxb.core
+[2024-03-20 18:24:32] Downloading org.eclipse.datatools.connectivity.apache.derby.dbdefinition
+[2024-03-20 18:24:32] Downloading org.eclipse.datatools.enablement.ibm.db2.zseries
+[2024-03-20 18:24:32] Downloading org.eclipse.wst.xml.xpath2.wtptypes
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.17kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.wst.xml.xpath2.wtptypes_2.1.0.v202307260701.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.62kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.17kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.wst.xml.xpath2.wtptypes_2.1.0.v202307260701.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.62kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.wst.xml.xpath2.processor.feature_2.1.0.v202307260822.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (21.4kB)
+[2024-03-20 18:24:32] Fetching org.eclipse.datatools.help_1.8.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (22.6kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.connectivity.doc.user.contexts_1.8.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (22.62kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.help_1.8.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (22.6kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.connectivity.doc.user.contexts_1.8.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (22.62kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.jst.ws.jaxb.core_1.1.0.v202308010229.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.02kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (22.78kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.wst.xsl.feature_1.3.1500.v202307260701.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (21.61kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.44kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.connectivity.db.generic_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (21.94kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.jst.ws.jaxb.core_1.1.0.v202308010229.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.02kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (23.44kB)
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.doc.user
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.sap.maxdb
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.hsqldb
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.ibm.ui
+[2024-03-20 18:24:33] Downloading org.eclipse.wst.xml.xpath.core
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.sqltools.schemaobjecteditor
+[2024-03-20 18:24:33] Downloading org.eclipse.wst.ws.ui
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.mysql.dbdefinition
+[2024-03-20 18:24:33] Downloading org.eclipse.lsp4j.jsonrpc.debug
+[2024-03-20 18:24:33] Fetching org.eclipse.wst.ws.ui_1.2.1.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (26.84kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.mysql.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (27.14kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.lsp4j.jsonrpc.debug_0.21.1.v20230829-0012.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (27.8kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (24.12kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.lsp4j.jsonrpc.debug_0.21.1.v20230829-0012.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (27.8kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.mysql.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (27.14kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (24.12kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.sqltools.schemaobjecteditor_1.4.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (26.35kB)
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.jdt.classpath
+[2024-03-20 18:24:33] Fetching org.eclipse.wst.xml.xpath.core_1.4.0.v202307260701.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (26.12kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.hsqldb_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (25.39kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.sqltools.schemaobjecteditor_1.4.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (26.35kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.wst.xml.xpath.core_1.4.0.v202307260701.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (26.12kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.sap.maxdb_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (25.24kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (25.6kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.sap.maxdb_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (25.24kB)
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.modelbase.derby
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.enablement.ibm.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (25.6kB)
+[2024-03-20 18:24:33] Fetching org.eclipse.datatools.doc.user_1.15.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (23.83kB)
+[2024-03-20 18:24:33] Downloading org.eclipse.datatools.enablement.sqlite
+[2024-03-20 18:24:34] Downloading org.eclipse.jst.ws.axis2.ui
+[2024-03-20 18:24:34] Downloading org.eclipse.jst.ws.cxf.consumption.core
+[2024-03-20 18:24:34] Downloading org.eclipse.datatools.enablement.sqlite.ui
+[2024-03-20 18:24:34] Downloading org.eclipse.datatools.enablement.ibm.db2.zseries.ui
+[2024-03-20 18:24:34] Downloading org.eclipse.datatools.enablement.ibm.informix.ui
+[2024-03-20 18:24:34] Downloading org.eclipse.datatools.enablement.oracle.ui
+[2024-03-20 18:24:34] Downloading org.eclipse.wst.common.fproj
+[2024-03-20 18:24:34] Fetching org.eclipse.jst.ws.axis2.ui_1.1.0.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (29.64kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.wst.common.fproj_3.7.4.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.09kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.oracle.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (31.5kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.jst.ws.axis2.ui_1.1.0.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (29.64kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.oracle.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (31.5kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.wst.common.fproj_3.7.4.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.09kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.jdt.classpath_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (28.57kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.sqlite_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (29.08kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.sqlite.ui_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (30.11kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.ibm.informix.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (31.33kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.modelbase.derby_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (28.57kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (30.65kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.modelbase.derby_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (28.57kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.jst.ws.cxf.consumption.core_1.1.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (29.95kB)
+[2024-03-20 18:24:34] Downloading org.eclipse.jst.common.fproj.enablement.jdt
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.ibm.informix.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (31.33kB)
+[2024-03-20 18:24:34] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (30.65kB)
+[2024-03-20 18:24:34] Downloading org.eclipse.datatools.enablement.hsqldb.ui
+[2024-03-20 18:24:34] Downloading org.eclipse.jpt.common.eclipselink.feature
+[2024-03-20 18:24:34] Downloading org.eclipse.jpt.common.feature
+[2024-03-20 18:24:34] Downloading org.eclipse.jst.server_core.feature
+[2024-03-20 18:24:34] Downloading org.eclipse.jsf.feature
+[2024-03-20 18:24:34] Downloading org.eclipse.jst.server_ui.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jpt.jpa.eclipselink.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jpt.jpa.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.enterprise_core.feature
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.server_ui.feature_3.4.500.v202308172116.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.51kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.server_core.feature_3.4.600.v202308172116.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (32.46kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.common.fproj.enablement.jdt_3.29.0.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.11kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.server_core.feature_3.4.600.v202308172116.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (32.46kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.enterprise_core.feature_3.31.0.v202308010354.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.43kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.server_ui.feature_3.4.500.v202308172116.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.51kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jst.common.fproj.enablement.jdt_3.29.0.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.11kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jpt.jpa.eclipselink.feature_3.4.101.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.55kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.datatools.enablement.hsqldb.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (32.32kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jpt.jpa.feature_3.7.0.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.71kB)
+[2024-03-20 18:24:35] Downloading org.eclipse.wst.ws_ui.feature
+[2024-03-20 18:24:35] Fetching org.eclipse.jpt.jpa.eclipselink.feature_3.4.101.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.55kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jpt.common.eclipselink.feature_1.3.300.v202307260736.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (32.38kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jpt.jpa.feature_3.7.0.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (32.71kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jsf.feature_3.13.0.v202308300413.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (32.5kB)
+[2024-03-20 18:24:35] Fetching org.eclipse.jpt.common.feature_1.5.200.v202308172102.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (32.38kB)
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.web_ui.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.ws.axis2tools.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.wst.common_core.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.web_core.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.wst.common_ui.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.ws.jaxws.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.web_js_support.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.server_adapters.feature
+[2024-03-20 18:24:35] Downloading org.eclipse.jst.ws.jaxws.dom.feature
+[2024-03-20 18:24:36] Fetching org.eclipse.wst.common_core.feature_3.31.0.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.63kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.wst.common_ui.feature_3.31.0.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.66kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.wst.common_core.feature_3.31.0.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.63kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.wst.common_ui.feature_3.31.0.v202308161955.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.66kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.wst.ws_ui.feature_3.31.0.v202308010326.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (33.55kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.web_js_support.feature_3.31.0.v202307061452.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.74kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.ws.jaxws.dom.feature_1.0.600.v202308010354.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.76kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.ws.jaxws.feature_1.2.900.v202308010326.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (33.7kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.ws.axis2tools.feature_1.2.0.v202308010354.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.59kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.web_js_support.feature_3.31.0.v202307061452.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.74kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.ws.jaxws.feature_1.2.900.v202308010326.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (33.7kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.web_core.feature_3.31.0.v202307061452.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.64kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.server_adapters.feature_3.31.0.v202308110241.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.75kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.web_ui.feature_3.31.0.v202307061452.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.55kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.ws.jaxws.dom.feature_1.0.600.v202308010354.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.76kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.web_ui.feature_3.31.0.v202307061452.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.55kB)
+[2024-03-20 18:24:36] Fetching org.eclipse.jst.web_core.feature_3.31.0.v202307061452.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.64kB)
+[2024-03-20 18:24:36] Downloading org.eclipse.wst.ws_core.feature
+[2024-03-20 18:24:36] Downloading org.eclipse.jst.ws.cxf.feature
+[2024-03-20 18:24:36] Downloading org.eclipse.jst.webpageeditor.feature
+[2024-03-20 18:24:36] Downloading org.eclipse.wst.xml_core.feature
+[2024-03-20 18:24:36] Downloading org.eclipse.wst.xml_ui.feature
+[2024-03-20 18:24:36] Downloading org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature
+[2024-03-20 18:24:36] Downloading org.eclipse.datatools.connectivity.console.profile
+[2024-03-20 18:24:36] Downloading org.eclipse.jst.j2ee.ejb.annotations.emitter
+[2024-03-20 18:24:36] Downloading org.eclipse.jst.j2ee.jca.ui
+[2024-03-20 18:24:36] Downloading org.eclipse.jst.pagedesigner.jsp.core
+[2024-03-20 18:24:37] Fetching org.eclipse.wst.xml_ui.feature_3.31.0.v202308200343.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.84kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.wst.ws_core.feature_3.31.0.v202308021509.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.76kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.pagedesigner.jsp.core_1.6.0.v202303190717.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (36.08kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.webpageeditor.feature_2.12.0.v202307262216.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.79kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.pagedesigner.jsp.core_1.6.0.v202303190717.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (36.08kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.webpageeditor.feature_2.12.0.v202307262216.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/features/ (33.79kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.wst.xml_ui.feature_3.31.0.v202308200343.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.84kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.wst.ws_core.feature_3.31.0.v202308021509.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.76kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.ws.cxf.feature_1.1.1100.v202308010326.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.77kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.connectivity.console.profile_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (34.97kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.ws.cxf.feature_1.1.1100.v202308010326.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/features/ (33.77kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.j2ee.jca.ui_1.2.0.v202307260438.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (35.41kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.wst.xml_core.feature_3.31.0.v202308210520.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (33.82kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.connectivity.console.profile_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (34.97kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature_2.8.0.v202307262303.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/features/ (33.85kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.j2ee.ejb.annotations.emitter_1.2.0.v202307261744.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (35.29kB)
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.sqltools.sql.ui
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.enablement.ibm.db2.iseries.ui
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.enablement.ibm.informix.dbdefinition
+[2024-03-20 18:24:37] Downloading org.eclipse.m2e.pde.connector
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.enablement.postgresql
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.connectivity.db.generic.ui
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.intro
+[2024-03-20 18:24:37] Downloading org.eclipse.datatools.sqltools.tabledataeditor
+[2024-03-20 18:24:37] Downloading org.eclipse.jst.ws.uddiregistry
+[2024-03-20 18:24:37] Downloading org.eclipse.jst.common.annotations.ui
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.intro_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (39.04kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.connectivity.db.generic.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (38.45kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.intro_1.15.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (39.04kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.connectivity.db.generic.ui_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (38.45kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.enablement.postgresql_1.4.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (37.86kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.enablement.ibm.informix.dbdefinition_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (37.26kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.sqltools.sql.ui_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (36.54kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.common.annotations.ui_1.2.0.v202307260438.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (40.67kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.enablement.ibm.db2.iseries.ui_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (36.81kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.sqltools.tabledataeditor_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (40.04kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.m2e.pde.connector_2.1.400.20230809-1423.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (37.83kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.jst.ws.uddiregistry_1.2.0.v202308010229.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (40.48kB)
+[2024-03-20 18:24:37] Fetching org.eclipse.datatools.sqltools.tabledataeditor_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (40.04kB)
+[2024-03-20 18:24:38] Downloading org.eclipse.jst.ws.cxf.consumption.ui
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.uddiregistry_1.2.0.v202308010229.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (40.48kB)
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition
+[2024-03-20 18:24:38] Downloading org.apache.axis.ant
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.enablement.oracle.dbdefinition
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.enablement.ibm.db2.luw.ui
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition
+[2024-03-20 18:24:38] Downloading org.eclipse.jst.ws.axis2.consumption.core
+[2024-03-20 18:24:38] Downloading org.eclipse.jst.ws.axis2.creation.core
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.connectivity.oda.profile
+[2024-03-20 18:24:38] Downloading org.eclipse.jst.ws.axis2.consumption.ui
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.axis2.creation.core_1.1.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (46.74kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.cxf.consumption.ui_1.1.0.v202308010229.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (40.93kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.axis2.consumption.ui_1.1.0.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (47.92kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.connectivity.oda.profile_3.5.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (47.13kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.cxf.consumption.ui_1.1.0.v202308010229.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (40.93kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.axis2.consumption.ui_1.1.0.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (47.92kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.connectivity.oda.profile_3.5.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (47.13kB)
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.enablement.msft.sqlserver.ui
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (45.45kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.axis2.consumption.core_1.1.0.v202308010354.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (45.88kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (45.45kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.enablement.oracle.dbdefinition_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (43.45kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.jst.ws.axis2.consumption.core_1.1.0.v202308010354.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (45.88kB)
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (41.77kB)
+[2024-03-20 18:24:38] Downloading org.eclipse.jst.server.preview.adapter
+[2024-03-20 18:24:38] Fetching org.eclipse.datatools.enablement.ibm.db2.luw.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (44.07kB)
+[2024-03-20 18:24:38] Fetching org.apache.axis.ant_1.4.0.v20230825-1400.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (42.24kB)
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.common.doc.user
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.enablement.sybase.models
+[2024-03-20 18:24:38] Downloading org.eclipse.datatools.sqltools.editor.core.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.jst.jsf.facelet.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.jst.ws.axis2.creation.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.jst.ws.cxf.creation.core
+[2024-03-20 18:24:39] Downloading org.eclipse.datatools.sqltools.routineeditor
+[2024-03-20 18:24:39] Downloading org.eclipse.wst.xml.xpath2.processor.doc.user
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.enablement.sybase.models_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (51.43kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.server.preview.adapter_1.1.1000.v202308110227.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (50.43kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.enablement.sybase.models_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (51.43kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.enablement.msft.sqlserver.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (49.14kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.ws.axis2.creation.ui_1.1.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (54.39kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.ws.cxf.creation.core_1.1.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (54.71kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.ws.axis2.creation.ui_1.1.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (54.39kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.ws.cxf.creation.core_1.1.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (54.71kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.common.doc.user_1.15.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (50.51kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.sqltools.routineeditor_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (55.32kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.sqltools.editor.core.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (52.04kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.wst.xml.xpath2.processor.doc.user_2.1.100.v202307260822.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (55.75kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.sqltools.editor.core.ui_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (52.04kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.wst.xml.xpath2.processor.doc.user_2.1.100.v202307260822.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (55.75kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.jsf.facelet.ui_1.5.0.v202308300413.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (52.05kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.datatools.sqltools.routineeditor_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (55.32kB)
+[2024-03-20 18:24:39] Fetching org.eclipse.jst.jsf.facelet.ui_1.5.0.v202308300413.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (52.05kB)
+[2024-03-20 18:24:39] Downloading org.eclipse.datatools.sqltools.parsers.sql
+[2024-03-20 18:24:39] Downloading org.eclipse.wst.ws.parser
+[2024-03-20 18:24:39] Downloading org.eclipse.jst.j2ee.webservice.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.wst.jsdt.manipulation
+[2024-03-20 18:24:39] Downloading org.eclipse.datatools.connectivity.oda.template.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.jst.ws.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.jpt.jpa.annotate
+[2024-03-20 18:24:39] Downloading org.eclipse.jst.ws.jaxws.dom.ui
+[2024-03-20 18:24:39] Downloading org.eclipse.datatools.sqltools.debugger.core
+[2024-03-20 18:24:40] Downloading org.eclipse.jst.ws.jaxws.dom.integration
+[2024-03-20 18:24:40] Fetching org.eclipse.jpt.jpa.annotate_1.1.0.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (58.92kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wst.jsdt.manipulation_1.1.0.v202307190318.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (57.78kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.datatools.connectivity.oda.template.ui_3.5.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (58.3kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wst.jsdt.manipulation_1.1.0.v202307190318.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (57.78kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jpt.jpa.annotate_1.1.0.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (58.92kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.datatools.connectivity.oda.template.ui_3.5.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (58.3kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.ws.ui_1.1.100.v202308012257.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (58.54kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.ws.jaxws.dom.ui_1.1.0.v202308010229.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (59.47kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.ws.ui_1.1.100.v202308012257.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (58.54kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.ws.jaxws.dom.ui_1.1.0.v202308010229.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (59.47kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.ws.jaxws.dom.integration_1.1.0.v202308010229.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (61.28kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wst.ws.parser_1.1.0.v202308012257.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (56.37kB)
+[2024-03-20 18:24:40] Downloading org.eclipse.wildwebdeveloper
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.j2ee.webservice.ui_1.2.0.v202307260438.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (57.14kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.datatools.sqltools.parsers.sql_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (55.86kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.datatools.sqltools.debugger.core_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (60.01kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wst.ws.parser_1.1.0.v202308012257.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (56.37kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.j2ee.webservice.ui_1.2.0.v202307260438.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (57.14kB)
+[2024-03-20 18:24:40] Fetching org.eclipse.datatools.sqltools.debugger.core_1.3.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (60.01kB)
+[2024-03-20 18:24:40] Downloading org.eclipse.wildwebdeveloper.embedder.node.win32.x86_64
+[2024-03-20 18:24:40] Downloading org.eclipse.wst.jsdt.ui
+[2024-03-20 18:24:40] Downloading org.eclipse.jpt.jpa.core
+[2024-03-20 18:24:40] Downloading org.eclipse.jst.jsf.doc.user
+[2024-03-20 18:24:40] Downloading org.eclipse.jpt.jpa.ui
+[2024-03-20 18:24:40] Downloading org.eclipse.wst.ws.explorer
+[2024-03-20 18:24:40] Downloading org.eclipse.jst.pagedesigner
+[2024-03-20 18:24:40] Downloading org.apache.axis
+[2024-03-20 18:24:40] Downloading org.eclipse.jpt.jpa.eclipselink.core
+[2024-03-20 18:24:40] Fetching org.eclipse.jpt.jpa.eclipselink.core_2.5.0.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.45MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wildwebdeveloper_1.1.1.202308101949.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (37.04MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.jsf.doc.user_1.5.1.v202307262125.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (2.63MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wildwebdeveloper_1.1.1.202308101949.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (37.04MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.jsf.doc.user_1.5.1.v202307262125.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (2.63MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jpt.jpa.ui_3.6.100.v202305092307.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (2.18MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wildwebdeveloper.embedder.node.win32.x86_64_1.0.6.202308092312.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (27.01MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jpt.jpa.core_3.7.0.v202308172102.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (3.06MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.pagedesigner_1.10.100.v202307262126.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (1.64MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jpt.jpa.core_3.7.0.v202308172102.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (3.06MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.jst.pagedesigner_1.10.100.v202307262126.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (1.64MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wst.ws.explorer_1.1.2.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.84MB)
+[2024-03-20 18:24:40] Fetching org.eclipse.wst.jsdt.ui_2.1.700.v202304022004.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (8.33MB)
+[2024-03-20 18:24:40] Fetching org.apache.axis_1.4.0.v20230730-0709.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.61MB)
+[2024-03-20 18:24:41] Fetching org.eclipse.wst.ws.explorer_1.1.2.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.84MB)
+[2024-03-20 18:24:41] Fetching org.apache.axis_1.4.0.v20230730-0709.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.61MB)
+[2024-03-20 18:24:41] Fetching org.eclipse.jpt.jpa.eclipselink.core_2.5.0.v202308172102.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.wildwebdeveloper_1.1.1.202308101949.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.jst.jsf.doc.user_1.5.1.v202307262125.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.wildwebdeveloper.embedder.node.win32.x86_64_1.0.6.202308092312.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.jpt.jpa.ui_3.6.100.v202305092307.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.jst.pagedesigner_1.10.100.v202307262126.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.jpt.jpa.core_3.7.0.v202308172102.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:41] Fetching org.eclipse.wst.jsdt.ui_2.1.700.v202304022004.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:42] Fetching org.eclipse.wst.ws.explorer_1.1.2.v202308010145.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:42] Fetching org.apache.axis_1.4.0.v20230730-0709.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:42] Downloading org.eclipse.wst.xsd.ui
+[2024-03-20 18:24:42] Fetching org.eclipse.wst.xsd.ui_1.3.601.v202308160453.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.28MB)
+[2024-03-20 18:24:43] Downloading org.eclipse.jst.jsf.facesconfig
+[2024-03-20 18:24:43] Fetching org.eclipse.jst.jsf.facesconfig_1.6.0.v202303190717.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.19MB)
+[2024-03-20 18:24:43] Downloading org.eclipse.jst.jsf.core
+[2024-03-20 18:24:43] Fetching org.eclipse.wst.xsd.ui_1.3.601.v202308160453.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:43] Downloading org.eclipse.emf.codegen.ecore
+[2024-03-20 18:24:43] Fetching org.eclipse.jst.jsf.core_1.9.1.v202308300413.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (1.17MB)
+[2024-03-20 18:24:44] Fetching org.eclipse.emf.codegen.ecore_2.35.0.v20230801-1141.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (1.11MB)
+[2024-03-20 18:24:44] Downloading org.eclipse.datatools.sqltools.sqlbuilder
+[2024-03-20 18:24:44] Downloading org.eclipse.wst.sse.ui
+[2024-03-20 18:24:44] Fetching org.eclipse.jst.jsf.core_1.9.1.v202308300413.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:44] Downloading org.eclipse.wst.xml.ui
+[2024-03-20 18:24:44] Fetching org.eclipse.datatools.sqltools.sqlbuilder_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.07MB)
+[2024-03-20 18:24:44] Fetching org.eclipse.wst.sse.ui_1.7.800.v202308200343.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (1.05MB)
+[2024-03-20 18:24:44] Fetching org.eclipse.datatools.sqltools.sqlbuilder_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1.07MB)
+[2024-03-20 18:24:45] Fetching org.eclipse.wst.xml.ui_1.2.701.v202308160453.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (1MB)
+[2024-03-20 18:24:45] Downloading org.eclipse.xsd
+[2024-03-20 18:24:45] Fetching org.eclipse.xsd_2.19.0.v20230614-0642.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (1,002.68kB)
+[2024-03-20 18:24:45] Downloading org.eclipse.gef
+[2024-03-20 18:24:45] Fetching org.eclipse.gef_3.15.0.202308311129.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (999.88kB)
+[2024-03-20 18:24:45] Fetching org.eclipse.datatools.sqltools.sqlbuilder_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:46] Downloading org.eclipse.jst.jsf.facesconfig.ui
+[2024-03-20 18:24:46] Downloading org.eclipse.wst.wsdl.ui
+[2024-03-20 18:24:46] Downloading org.eclipse.wst.wsi
+[2024-03-20 18:24:46] Downloading org.eclipse.jst.j2ee.ui
+[2024-03-20 18:24:46] Fetching org.eclipse.wst.wsi_1.1.501.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (878.84kB)
+[2024-03-20 18:24:46] Fetching org.eclipse.wst.wsdl.ui_1.3.101.v202308010229.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (912.17kB)
+[2024-03-20 18:24:46] Fetching org.eclipse.jst.j2ee.ui_1.2.300.v202307260438.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (858.88kB)
+[2024-03-20 18:24:47] Downloading org.eclipse.datatools.enablement.ibm.db2.luw
+[2024-03-20 18:24:47] Fetching org.eclipse.datatools.enablement.ibm.db2.luw_1.3.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (845.5kB)
+[2024-03-20 18:24:47] Fetching org.eclipse.jst.jsf.facesconfig.ui_1.7.0.v202305071652.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (943.79kB)
+[2024-03-20 18:24:47] Downloading org.eclipse.jst.ws.consumption.ui
+[2024-03-20 18:24:47] Fetching org.eclipse.jst.jsf.facesconfig.ui_1.7.0.v202305071652.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (943.79kB)
+[2024-03-20 18:24:47] Fetching org.eclipse.jst.ws.consumption.ui_1.2.0.v202308010145.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (801.66kB)
+[2024-03-20 18:24:47] Fetching org.eclipse.jst.j2ee.ui_1.2.300.v202307260438.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:47] Downloading org.eclipse.wst.html.core
+[2024-03-20 18:24:48] Fetching org.eclipse.wst.html.core_1.4.400.v202308160453.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (785.75kB)
+[2024-03-20 18:24:48] Downloading org.eclipse.jst.jsp.core
+[2024-03-20 18:24:48] Downloading org.eclipse.jst.jsf.common
+[2024-03-20 18:24:48] Fetching org.eclipse.jst.jsp.core_1.4.700.v202308180906.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (720.61kB)
+[2024-03-20 18:24:48] Fetching org.eclipse.jst.jsf.facesconfig.ui_1.7.0.v202305071652.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:48] Downloading org.eclipse.jst.standard.schemas
+[2024-03-20 18:24:48] Fetching org.eclipse.jst.standard.schemas_1.2.600.v202307260543.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (688.36kB)
+[2024-03-20 18:24:48] Fetching org.eclipse.jst.jsf.common_1.6.0.v202303190717.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (693.7kB)
+[2024-03-20 18:24:48] Downloading org.eclipse.jst.jsf.facelet.core
+[2024-03-20 18:24:48] Downloading org.eclipse.wst.xml.xpath2.processor
+[2024-03-20 18:24:49] Fetching org.eclipse.jst.jsf.facelet.core_1.5.0.v202308300413.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (664.57kB)
+[2024-03-20 18:24:49] Fetching org.eclipse.wst.xml.xpath2.processor_2.2.0.v202307260701.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (661.36kB)
+[2024-03-20 18:24:49] Downloading org.eclipse.draw2d
+[2024-03-20 18:24:49] Fetching org.eclipse.jst.jsf.facelet.core_1.5.0.v202308300413.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (664.57kB)
+[2024-03-20 18:24:49] Downloading org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples
+[2024-03-20 18:24:49] Fetching org.eclipse.draw2d_3.14.0.202308311129.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (650.37kB)
+[2024-03-20 18:24:49] Downloading org.eclipse.datatools.modelbase.sql.query
+[2024-03-20 18:24:49] Downloading org.eclipse.datatools.connectivity.ui
+[2024-03-20 18:24:49] Downloading org.eclipse.datatools.modelbase.sql
+[2024-03-20 18:24:49] Fetching org.eclipse.datatools.modelbase.sql_1.3.0.202305310959.jar from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/plugins/ (573.38kB)
+[2024-03-20 18:24:49] Fetching org.eclipse.datatools.connectivity.ui_1.5.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (578.19kB)
+[2024-03-20 18:24:49] Fetching org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples_2.8.0.202305310959.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (649.95kB)
+[2024-03-20 18:24:49] Fetching org.eclipse.datatools.modelbase.sql.query_1.4.0.202305310959.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/ (636.3kB)
+[2024-03-20 18:24:49] Fetching org.eclipse.jst.jsf.common_1.6.0.v202303190717.jar from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/plugins/
+[2024-03-20 18:24:49] Downloading org.eclipse.wst.css.core
+[2024-03-20 18:24:49] Fetching org.eclipse.wst.css.core_1.3.400.v202308160453.jar from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/plugins/ (554.95kB)
+[2024-03-20 18:24:50] Mirrored 75 artifacts from https://mirror.dkm.cz/eclipse/releases/2023-09/202309131000/ at 610kb/s with 4 failures
+[2024-03-20 18:24:50] Mirrored 62 artifacts from https://ftp.fau.de/eclipse/releases/2023-09/202309131000/ at 313kb/s with 3 failures
+[2024-03-20 18:24:50] Mirrored 51 artifacts from https://ftp.halifax.rwth-aachen.de/eclipse/releases/2023-09/202309131000/ at 201kb/s with 3 failures
+[2024-03-20 18:24:50] Mirrored 10 artifacts from https://mirror.dogado.de/eclipse/releases/2023-09/202309131000/ at 92kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://mirror.ibcp.fr/pub/eclipse/releases/2023-09/202309131000/ at 79kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://ftp.snt.utwente.nl/pub/software/eclipse/releases/2023-09/202309131000/ at 73kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://ftp.acc.umu.se/mirror/eclipse.org/releases/2023-09/202309131000/ at 67kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://eclipse.mirror.garr.it/releases/2023-09/202309131000/ at 62kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://mirror.tspu.ru/eclipse/releases/2023-09/202309131000/ at 38kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://download.eclipse.org/releases/2023-09/202309131000/ at 28kb/s
+[2024-03-20 18:24:50] Mirrored 1 artifacts from https://mirrors.dotsrc.org/eclipse//releases/2023-09/202309131000/ at 25kb/s
+[2024-03-20 18:24:50] Collected 341 artifacts for https://download.eclipse.org/releases/2023-09/202309131000 in 27.082s
+[2024-03-20 18:24:50] The engine operation was cancelled and the changes are being rolled back.
+[2024-03-20 18:24:50] 
