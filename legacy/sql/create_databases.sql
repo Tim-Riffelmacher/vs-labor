@@ -8,12 +8,6 @@ GRANT ALL PRIVILEGES ON product.* TO 'webshopuser'@'%';
 
 GRANT ALL PRIVILEGES ON user.* TO 'webshopuser'@'%';
 
-CREATE TABLE user.category (
-	id INT NOT NULL AUTO_INCREMENT,
-	name VARCHAR(255) NOT NULL,
-	PRIMARY KEY (id)
-) ENGINE=InnoDB;
-
 CREATE TABLE user.role (
 	id INT NOT NULL AUTO_INCREMENT,
 	level1 INT,
