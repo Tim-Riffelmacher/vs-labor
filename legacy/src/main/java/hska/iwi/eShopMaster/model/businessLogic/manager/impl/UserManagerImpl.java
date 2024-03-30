@@ -1,8 +1,7 @@
 package hska.iwi.eShopMaster.model.businessLogic.manager.impl;
 
 import hska.iwi.eShopMaster.model.businessLogic.manager.UserManager;
-import hska.iwi.eShopMaster.model.database.dataAccessObjects.RoleDAO;
-import hska.iwi.eShopMaster.model.database.dataAccessObjects.UserDAO;
+import hska.iwi.eShopMaster.model.businessLogic.microservice.connector.RestCallUtil;
 import hska.iwi.eShopMaster.model.database.dataobjects.Role;
 import hska.iwi.eShopMaster.model.database.dataobjects.User;
 
@@ -12,58 +11,48 @@ import hska.iwi.eShopMaster.model.database.dataobjects.User;
  */
 
 public class UserManagerImpl implements UserManager {
-	UserDAO helper;
-	
+
+	private RestCallUtil restUtil;
+
 	public UserManagerImpl() {
-		helper = new UserDAO();
+		restUtil = new RestCallUtil("http://user-microservice:8083/user");
 	}
 
-	
 	public void registerUser(String username, String name, String lastname, String password, Role role) {
-
+		String requestUrl = "/register";
 		User user = new User(username, name, lastname, password, role);
-
-		helper.saveObject(user);
+		restUtil.getObjectFromPostEndpoint(requestUrl, user, User.class, null);
 	}
 
-	
 	public User getUserByUsername(String username) {
 		if (username == null || username.equals("")) {
 			return null;
 		}
-		return helper.getUserByUsername(username);
+		String requestUrl = "/byName/" + username;
+		return restUtil.getObjectFromGetEndpoint(requestUrl, User.class);
 	}
 
 	public boolean deleteUserById(int id) {
-		User user = new User();
-		user.setId(id);
-		helper.deleteObject(user);
-		return true;
+		String requestUrl = "/deleteById/" + id;
+		return restUtil.getObjectFromGetEndpoint(requestUrl, Boolean.class);
 	}
 
 	public Role getRoleByLevel(int level) {
-		RoleDAO roleHelper = new RoleDAO();
-		return roleHelper.getRoleByLevel(level);
+		String requestUrl = "/role/" + level;
+		return restUtil.getObjectFromGetEndpoint(requestUrl, Role.class);
 	}
 
 	public boolean doesUserAlreadyExist(String username) {
-		
-    	User dbUser = this.getUserByUsername(username);
-    	
-    	if (dbUser != null){
-    		return true;
-    	}
-    	else {
-    		return false;
-    	}
+		String requestUrl = "/exists/" + username;
+		return restUtil.getObjectFromGetEndpoint(requestUrl, Boolean.class);
 	}
-	
 
 	public boolean validate(User user) {
-		if (user.getFirstname().isEmpty() || user.getPassword().isEmpty() || user.getRole() == null || user.getLastname() == null || user.getUsername() == null) {
+		if (user.getFirstname().isEmpty() || user.getPassword().isEmpty() || user.getRole() == null
+				|| user.getLastname() == null || user.getUsername() == null) {
 			return false;
 		}
-		
+
 		return true;
 	}
 

@@ -1,10 +1,14 @@
-package hska.iwi.eShopMaster.model.database.dataobjects;
+package hka.vertsys.user.data;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-
-/**
- * This class contains details about roles.
- */
+@Entity
+@Table(name = "role")
 public class Role implements java.io.Serializable {
 
 	/**
@@ -12,11 +16,15 @@ public class Role implements java.io.Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id", nullable = false)
 	private int id;
 
+	@Column(name = "type")
 	private String typ;
-	
-	
+
+	@Column(name = "level1")
 	private int level;
 
 	public Role() {
