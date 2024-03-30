@@ -1,10 +1,14 @@
-package hska.iwi.eShopMaster.model.database.dataobjects;
+package hka.vertsys.product.data;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
-
-/**
- * This class contains details about products.
- */
+@Entity
+@Table(name = "product")
 public class Product implements java.io.Serializable {
 
 	/**
@@ -12,27 +16,33 @@ public class Product implements java.io.Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id", nullable = false)
 	private int id;
 
+	@Column(name = "name")
 	private String name;
 
+	@Column(name = "price")
 	private double price;
 
-	
-	private Category category;
+	@Column(name = "category_id")
+	private int category;
 
+	@Column(name = "details")
 	private String details;
 
 	public Product() {
 	}
 
-	public Product(String name, double price, Category category) {
+	public Product(String name, double price, int category) {
 		this.name = name;
 		this.price = price;
 		this.category = category;
 	}
 
-	public Product(String name, double price, Category category, String details) {
+	public Product(String name, double price, int category, String details) {
 		this.name = name;
 		this.price = price;
 		this.category = category;
@@ -63,11 +73,11 @@ public class Product implements java.io.Serializable {
 		this.price = price;
 	}
 
-	public Category getCategory() {
+	public int getCategory() {
 		return this.category;
 	}
 
-	public void setCategory(Category category) {
+	public void setCategory(int category) {
 		this.category = category;
 	}
 

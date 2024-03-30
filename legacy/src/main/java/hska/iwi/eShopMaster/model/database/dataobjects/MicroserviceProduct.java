@@ -1,46 +1,37 @@
 package hska.iwi.eShopMaster.model.database.dataobjects;
 
 
-
-/**
- * This class contains details about products.
- */
-public class Product implements java.io.Serializable {
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+public class MicroserviceProduct {
 
 	private int id;
-
+	
 	private String name;
 
 	private double price;
 
-	
-	private Category category;
+	private int category;
 
 	private String details;
 
-	public Product() {
+	public MicroserviceProduct() {
 	}
 
-	public Product(String name, double price, Category category) {
+	public MicroserviceProduct(String name, double price, int category) {
 		this.name = name;
 		this.price = price;
 		this.category = category;
 	}
 
-	public Product(String name, double price, Category category, String details) {
+	public MicroserviceProduct(String name, double price, int category, String details) {
 		this.name = name;
 		this.price = price;
 		this.category = category;
 		this.details = details;
 	}
 
+
 	public int getId() {
-		return this.id;
+		return id;
 	}
 
 	public void setId(int id) {
@@ -63,11 +54,11 @@ public class Product implements java.io.Serializable {
 		this.price = price;
 	}
 
-	public Category getCategory() {
+	public int getCategory() {
 		return this.category;
 	}
 
-	public void setCategory(Category category) {
+	public void setCategory(int category) {
 		this.category = category;
 	}
 
@@ -78,5 +69,4 @@ public class Product implements java.io.Serializable {
 	public void setDetails(String details) {
 		this.details = details;
 	}
-
 }
