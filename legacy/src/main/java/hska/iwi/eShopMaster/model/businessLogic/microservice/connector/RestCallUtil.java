@@ -84,7 +84,6 @@ public class RestCallUtil {
 		try {
 			HttpEntity entity = executeGetCall(endpoint);
 			responseJson = EntityUtils.toString(entity);
-			System.out.println("res: " + responseJson);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
