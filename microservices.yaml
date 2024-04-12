@@ -241,9 +241,6 @@ spec:
       targetPort: 8083
   selector:
     run: user
-  type: LoadBalancer
-status:
-  loadBalancer: {}
 
 ---
 apiVersion: v1
@@ -260,9 +257,6 @@ spec:
       targetPort: 8081
   selector:
     run: category
-  type: LoadBalancer
-status:
-  loadBalancer: {}
 
 ---
 apiVersion: v1
@@ -279,9 +273,6 @@ spec:
       targetPort: 8082
   selector:
     run: product
-  type: LoadBalancer
-status:
-  loadBalancer: {}
 
 ---
 apiVersion: v1
@@ -298,6 +289,3 @@ spec:
       targetPort: 8080
   selector:
     run: legacy
-  type: LoadBalancer
-status:
-  loadBalancer: {}
