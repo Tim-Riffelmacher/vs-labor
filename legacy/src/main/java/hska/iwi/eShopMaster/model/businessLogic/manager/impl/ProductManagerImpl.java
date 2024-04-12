@@ -18,8 +18,8 @@ public class ProductManagerImpl implements ProductManager {
 	private RestCallUtil categoryUtil;
 
 	public ProductManagerImpl() {
-		restUtil = new RestCallUtil("http://product-microservice:8082/product");
-		categoryUtil = new RestCallUtil("http://category-microservice:8081/category");
+		restUtil = new RestCallUtil("http://product:8082/product");
+		categoryUtil = new RestCallUtil("http://category:8081/category");
 	}
 
 	public List<Product> getProducts() {

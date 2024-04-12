@@ -1,0 +1,303 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-cm
+data:
+  mysql_database: webshop
+  mysql_user: webshopuser
+
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: mysql-secret
+type: Opaque
+stringData:
+  mysql_root_password: c8de110f37300a53a971749
+  mysql_password: 240b2c6d58ff2ce2f508b49f
+
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: mysql-ss
+spec:
+  serviceName: mysql-ss
+  replicas: 1
+  selector:
+    matchLabels:
+      run: mysql-ss
+  template:
+    metadata:
+      labels:
+        run: mysql-ss
+    spec:
+      containers:
+        - name: mysql-ss
+          image: vs-image-db:1.0.1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3306
+              name: mysql-port
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql_root_password
+            - name: MYSQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mysql-secret
+                  key: mysql_password
+            - name: MYSQL_DATABASE
+              valueFrom:
+                configMapKeyRef:
+                  name: mysql-cm
+                  key: mysql_database
+            - name: MYSQL_USER
+              valueFrom:
+                configMapKeyRef:
+                  name: mysql-cm
+                  key: mysql_user
+      volumes:
+        - name: mysql-volume
+          persistentVolumeClaim:
+            claimName: mysql-pvc
+
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  labels:
+    type: local
+  name: mysql-pv
+spec:
+  storageClassName: manual
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: "/mnt/data"
+
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mysql-pvc
+spec:
+  storageClassName: manual
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: user
+  name: user
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: user
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: user
+    spec:
+      containers:
+        - image: vs-image-user:1.0.0
+          imagePullPolicy: Never
+          name: user
+          ports:
+            - containerPort: 8083
+          resources: {}
+status: {}
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: category
+  name: category
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: category
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: category
+    spec:
+      containers:
+        - image: vs-image-category:1.0.0
+          imagePullPolicy: Never
+          name: category
+          ports:
+            - containerPort: 8081
+          resources: {}
+status: {}
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: product
+  name: product
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: product
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: product
+    spec:
+      containers:
+        - image: vs-image-product:1.0.0
+          imagePullPolicy: Never
+          name: product
+          ports:
+            - containerPort: 8082
+          resources: {}
+status: {}
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: legacy
+  name: legacy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: legacy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: legacy
+    spec:
+      containers:
+        - image: vs-image-legacy:1.0.0
+          imagePullPolicy: Never
+          name: legacy
+          ports:
+            - containerPort: 8080
+          resources: {}
+status: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    run: mysql-ss
+  name: web-shop-db-image
+spec:
+  ports:
+    - port: 3306
+      name: mysql-port
+  clusterIP: None
+  selector:
+    run: mysql-ss
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    run: user
+  name: user
+spec:
+  ports:
+    - port: 8083
+      protocol: TCP
+      targetPort: 8083
+  selector:
+    run: user
+  type: LoadBalancer
+status:
+  loadBalancer: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    run: category
+  name: category
+spec:
+  ports:
+    - port: 8081
+      protocol: TCP
+      targetPort: 8081
+  selector:
+    run: category
+  type: LoadBalancer
+status:
+  loadBalancer: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    run: product
+  name: product
+spec:
+  ports:
+    - port: 8082
+      protocol: TCP
+      targetPort: 8082
+  selector:
+    run: product
+  type: LoadBalancer
+status:
+  loadBalancer: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    run: legacy
+  name: legacy
+spec:
+  ports:
+    - port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    run: legacy
+  type: LoadBalancer
+status:
+  loadBalancer: {}

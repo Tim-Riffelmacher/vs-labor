@@ -15,7 +15,7 @@ public class UserManagerImpl implements UserManager {
 	private RestCallUtil restUtil;
 
 	public UserManagerImpl() {
-		restUtil = new RestCallUtil("http://user-microservice:8083/user");
+		restUtil = new RestCallUtil("http://user:8083/user");
 	}
 
 	public void registerUser(String username, String name, String lastname, String password, Role role) {

@@ -17,7 +17,7 @@ public class CategoryManagerImpl implements CategoryManager {
 	private ProductManager productManager;
 
 	public CategoryManagerImpl() {
-		restUtil = new RestCallUtil("http://category-microservice:8081/category");
+		restUtil = new RestCallUtil("http://category:8081/category");
 		productManager = new ProductManagerImpl();
 	}
 
