@@ -47,9 +47,9 @@ public class UserController {
 		return new ResponseEntity<>(this.roleRepo.findByLevel(level), HttpStatus.OK);
 	}
 
-	@GetMapping("/exists/{id}")
-	public ResponseEntity<Boolean> doesUserAlreadyExist(@PathVariable("id") Integer userId) {
-		return new ResponseEntity<>(this.userRepo.existsById(userId), HttpStatus.OK);
+	@GetMapping("/exists/{name}")
+	public ResponseEntity<Boolean> doesUserAlreadyExist(@PathVariable("name") String name) {
+		return new ResponseEntity<>(this.userRepo.findByUsername(name) != null ? true : false, HttpStatus.OK);
 	}
 
 }
