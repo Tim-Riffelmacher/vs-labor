@@ -1,7 +1,6 @@
 package hska.iwi.eShopMaster.model.businessLogic.manager.impl;
 
 import hska.iwi.eShopMaster.model.businessLogic.manager.CategoryManager;
-import hska.iwi.eShopMaster.model.businessLogic.manager.ProductManager;
 import hska.iwi.eShopMaster.model.businessLogic.microservice.connector.RestCallUtil;
 import hska.iwi.eShopMaster.model.database.dataobjects.Category;
 import hska.iwi.eShopMaster.model.database.dataobjects.MicroserviceCategory;
@@ -14,11 +13,9 @@ import java.lang.reflect.Type;
 public class CategoryManagerImpl implements CategoryManager {
 
 	private RestCallUtil restUtil;
-	private ProductManager productManager;
 
 	public CategoryManagerImpl() {
 		restUtil = new RestCallUtil("http://category:8081/category");
-		productManager = new ProductManagerImpl();
 	}
 
 	public List<Category> getCategories() {
@@ -46,12 +43,10 @@ public class CategoryManagerImpl implements CategoryManager {
 	public void delCategory(Category cat) {
 		String requestUrl = "/delete/" + cat;
 		restUtil.getObjectFromGetEndpoint(requestUrl, null);
-		productManager.deleteProductsByCategoryId(cat.getId());
 	}
 
 	public void delCategoryById(int id) {
 		String requestUrl = "/deleteById/" + id;
 		restUtil.getObjectFromGetEndpoint(requestUrl, null);
-		productManager.deleteProductsByCategoryId(id);
 	}
 }

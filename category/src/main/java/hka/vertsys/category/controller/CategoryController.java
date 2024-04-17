@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import hka.vertsys.category.data.Category;
 import hka.vertsys.category.data.CategoryRepository;
+import hka.vertsys.category.data.RestCallUtil;
 
 @RestController
 @RequestMapping("/category")
@@ -46,13 +47,21 @@ public class CategoryController {
 	@PostMapping("/delete")
 	public ResponseEntity<?> deleteCategory(@RequestBody() Category categoryToDelete) {
 		this.categoryRepo.delete(categoryToDelete);
+		deleteProductsByCategoryId(categoryToDelete.getId());
 		return new ResponseEntity<>("deleted Category", HttpStatus.OK);
 	}
 
 	@GetMapping("/deleteById/{id}")
 	public ResponseEntity<?> deleteCategoryById(@PathVariable("id") Integer categoryId) {
 		this.categoryRepo.deleteById(categoryId);
+		deleteProductsByCategoryId(categoryId);
 		return new ResponseEntity<>("deleted Category", HttpStatus.OK);
+	}
+	
+	private void deleteProductsByCategoryId(int categoryId) {
+		RestCallUtil restUtil = new RestCallUtil("http://product:8082/product");
+		String requestUrl = "/deleteByCategoryId/" + categoryId;
+		restUtil.getObjectFromGetEndpoint(requestUrl, null);
 	}
 
 }
